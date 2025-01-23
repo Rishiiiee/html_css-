@@ -1,0 +1,282 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.web
+{
+    width: 100%;
+    background-color: black;
+    height: 50px;
+
+}
+.webcontainer
+{
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+}
+.menu
+{
+    width: 100%;
+    height: 50px;
+    
+}
+.menucontainer
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+}
+.menucontainer ul
+{
+    display: flex;
+    
+}
+.menucontainer ul li
+{
+    display: flex;
+    
+}
+.menucontainer ul li a
+{
+    text-decoration: none;
+    color: black    ;
+    text-wrap: wrap;
+    
+}
+.front
+{
+    width: 100%;
+}
+.frontcontainer
+{
+    width: 90%;
+    margin: auto;
+
+}
+.frontcontainer img
+{
+    width: 456px;
+    height: 238px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.hapscat
+{
+    width: 100%;
+}
+.hapscatcontainer
+{
+    width: 95%;
+    margin: 20px auto;
+    font-size: large;
+    position: relative;
+    text-align: center;
+    height: 30px;
+}
+.hapscatcontainer::after
+{
+    content: '';
+    height: 9px;
+    width: 28%;
+    position: absolute;
+    border-bottom: 1px solid black;
+    left: 12px;
+    top: 3%
+    
+}
+.hapscatcontainer::before
+{
+    content: '';
+    height: 9px;
+    width: 30%;
+    position: absolute;
+    border-bottom: 1px solid black;
+    right: 3px;
+    top: 3%
+}
+.prod
+{
+    width: 100%;
+    margin: auto;
+}
+.prodcontainer
+{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 780px;
+    
+
+}
+.prodcontainer img
+{
+    width: 49%;
+    height: 187.34px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 11px;
+    margin-right: -11px;
+}
+.hapmov
+{
+    width: 100%;
+}
+.hapmovcontainer
+{
+    width: 95%;
+    margin: auto;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+}
+.hapmovcontainer::after
+{
+    content: '';
+    height: 9px;
+    width: 30%;
+    position: absolute;
+    border-bottom: 1px solid black;
+    left: 10px;
+    top: 32%
+    
+}
+.hapmovcontainer::before
+{
+    content: '';
+    height: 9px;
+    width: 34%;
+    position: absolute;
+    border-bottom: 1px solid black;
+    right: -7px;
+    top: 32%
+}
+.video
+{
+    width: 100%;
+}
+.videocontainer
+{
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    align-items: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 1750px;
+    border-radius: 5px;
+
+}
+.videocontainer video
+{
+    width: 221.44px;
+    height: 276.8px;
+    display: flex;
+    border-radius: 10px;
+}
+.videocontainer img
+{
+    width: 221.44px;
+    height: 276.52;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+}
+.viewmore
+{
+    width: 100%;
+    display: flex;
+    
+}
+.viewmorecontainer
+{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+.viewmorecontainer button
+{
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+
+}
+.footer
+{
+    width: 100%;
+    margin-top: 50px;
+}
+.footercontainer
+{
+    width: 95%;
+    font-size: x-large;
+    text-decoration-style: bold;
+    justify-content: left;
+    display: flex;
+    margin: auto;
+}
+.footercontainer a
+{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+.folllow
+{
+    width: 100%;
+}
+.folllowcontainer
+{
+    width: 90%;
+    margin: auto;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+}
+.folllowcontainer::after
+{
+    content: '';
+    height: 9px;
+    width: 38%;
+    position: absolute;
+    border-bottom: 1px solid black;
+    left: -10px;
+    top: 32%
+    
+}
+.folllowcontainer::before
+{
+    content: '';
+    height: 9px;
+    width: 38%;
+    position: absolute;
+    border-bottom: 1px solid black;
+    right: -10px;
+    top: 32%
+}
